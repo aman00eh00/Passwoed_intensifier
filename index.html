@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Enhancement</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Intensifier</h1>
+        
+        
+        <!-- User profile information -->
+        <div class="profile-section">
+            <h2>Your Profile Information</h2>
+            <p class="hint">Adding profile information helps in validate your password doesn't contain "PERSONAL DETAILS"</p>
+            
+            <form id="user-info-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="birthdate">Birth Date:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>
+            </form>
+        </div>
+        
+        <!-- Password checker section -->
+        <div class="password-section">
+            <h2>Check Your Password</h2>
+            
+            <form id="passwordForm">
+                <div class="password-container">
+                    <label for="password">Enter a password:</label>
+                    <div class="password-input-group">
+                        <input type="password" id="password" name="password" placeholder="Enter your password">
+                        <button type="button" class="show">Show</button>
+                    </div>
+                    
+                    <div class="strength-meter-container">
+                        <div id="strength-meter">
+                            <div id="strength-bar" class="strength-indicator"></div>
+                        </div>
+                        <div id="message" class="message"></div>
+                    </div>
+                    
+                    <div class="button-group">
+                        <button type="submit" class="check-btn">Check Password</button>
+                        <button type="button" id="suggest-password" class="suggest-btn">Suggest Password</button>
+                    </div>
+                </div>
+            </form>
+            
+            <!-- Password feedback section -->
+            <div class="feedback-section">
+                <div class="feedback-column">
+                    <h3>Password Issues</h3>
+                    <ul id="password-feedback" class="feedback-list"></ul>
+                </div>
+                
+                <div class="feedback-column">
+                    <h3>Recommendations</h3>
+                    <ul id="password-recommendations" class="recommendation-list"></ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Password tips section -->
+        <div class="tips-section">
+            <h2>Password Security Tips</h2>
+            <ul>
+                <li>Use a unique password for each account</li>
+                <li>Combine uppercase, lowercase, numbers, and special characters</li>
+                <li>Avoid using personal information in your passwords</li>
+                <li>Consider using a password manager to generate and store secure passwords</li>
+                <li>Change your passwords regularly, especially for important accounts</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer-credit">
+        created by @AmanKumarSharma
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
