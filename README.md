@@ -1,4 +1,4 @@
-# Enhanced Password Strength Checker
+# Enhanced Password using Password Intensifier
 
 ## Description
 This is an enhanced web-based Password Strength Checker application that not only evaluates the strength of your password but also validates it against your personal information to ensure better security. It provides detailed feedback and recommendations to help you create a strong and secure password.
