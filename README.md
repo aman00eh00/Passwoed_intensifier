@@ -1,4 +1,4 @@
-# Enhanced Password using Password Intensifier
+# Enhanced Password by Password Intensifier
 
 ## Description
 This is an enhanced web-based Password Strength Checker application that not only evaluates the strength of your password but also validates it against your personal information to ensure better security. It provides detailed feedback and recommendations to help you create a strong and secure password.
@@ -13,7 +13,7 @@ This is an enhanced web-based Password Strength Checker application that not onl
 - User-friendly interface with profile information input and password tips.
 
 ## How to Use
-1. Open the `improved-index-html.html` file in any modern web browser.
+1. Open the `index.html` file in any modern web browser.
 2. Fill in your profile information in the "Your Profile Information" section. This helps the checker validate that your password does not contain personal details.
 3. Enter your password in the password input field under "Check Your Password".
 4. The strength meter and message will update dynamically to show the strength of your password.
@@ -35,7 +35,7 @@ This is an enhanced web-based Password Strength Checker application that not onl
 - JavaScript
 
 ## Running the Project
-Simply open the `improved-index-html.html` file in your preferred web browser. No additional setup or installation is required.
+Simply open the `index.html` file in your preferred web browser. No additional setup or installation is required.
 
 ## License
 This project is open source and free to use.
